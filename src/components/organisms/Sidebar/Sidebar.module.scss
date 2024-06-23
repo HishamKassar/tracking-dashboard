@@ -1,0 +1,52 @@
+.sidebar {
+  & > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  & ul {
+    flex-grow: 1;
+  }
+}
+
+.headerLogo {
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.logoutButton {
+  position: relative;
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.65);
+  height: 40px;
+  line-height: 40px;
+  list-style-position: inside;
+  list-style-type: disc;
+  padding-inline: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-inline: 4px;
+  margin-block: 4px;
+  width: calc(100% - 8px);
+  white-space: nowrap;
+  border-radius: 4px;
+  transition-duration: 0.3s;
+
+  svg {
+    cursor: pointer;
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+      transition-duration: 0.3s;
+    }
+  }
+
+  & span {
+    margin-inline-start: 10px;
+  }
+
+}

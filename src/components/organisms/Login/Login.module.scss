@@ -1,0 +1,18 @@
+.loginCard {
+  width: 100%;
+  max-width: 430px;
+}
+
+.title {
+  margin-bottom: 50px !important;
+  text-align: center;
+}
+
+.loginForm {
+  width: 100%;
+
+  &_Button {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
